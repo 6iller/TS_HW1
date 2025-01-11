@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./src",
+    "module": "commonjs",
+    "target": "ES2024",
+    "lib":["es2021", "dom"],
+    "moduleResolution": "node",
+    "allowJs": false,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // "types": ["jquery","bootstrap","signalr"]
+  },
+  "exclude": [
+    "node_modules", 
+    "**/*.spec.ts", 
+    "out/**"
+  ],
+  "include": ["**/*.ts", "src/**/*"],
+  "files": [
+    "./src/users.ts",
+    "./src/userInfo.ts",
+    // "./src/index_new.ts",
+    "./src/index.ts",
+    // "./src/test.ts"
+  ],
+  // "extends": "@tsconfig/node23/tsconfig.json",
+  "compileOnSave": true,
+}
